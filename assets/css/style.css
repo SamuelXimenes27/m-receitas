@@ -370,7 +370,7 @@ footer p {
         margin-bottom: 90px;
     }
     #sessao-sobre {
-        margin-bottom: 160px;
+        margin-bottom: 270px;
     }
     #sessao-sobre p {
         display: inline;
@@ -401,7 +401,7 @@ footer p {
         margin-bottom: 160px;
     }
     #sessao-sobre p {
-        display: inline;
+        display: inline-block;
     }
     .cookie-img {
         width: 18%;
