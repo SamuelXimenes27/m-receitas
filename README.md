@@ -6,7 +6,7 @@
 A website developed for study HTML/CSS and show my hobby(cooking) and my favorites recipes.
 
 ## Layout
-  ![Alt Text](https://i.postimg.cc/VsWTY8mp/2023-02-01-23-21-04-samuelximenes27-github-io-a656d0cc281d.png)
+  ![Alt Text](https://i.postimg.cc/PJK7dT1Z/2024-01-05-14-51-30-mreceitas-netlify-app-827e22a5c7b8.png)
 
 # Author
 
