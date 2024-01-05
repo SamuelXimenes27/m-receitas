@@ -1,168 +1,331 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <link href='https://css.gg/calendar-two.css' rel='stylesheet'>
-    <title>M.Receitas</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>M. Receitas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="assets/css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="assets/css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="assets/js/modernizr-2.6.2.min.js"></script>
+
 </head>
 
 <body>
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<img class="img-title" src="assets/img/stand.png" alt="Logo Doceria">
+			<h1 id="colorlib-logo"><a href="index.html">M.Receitas</a></h1>
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<li><a href="#welcome">Bem Vindo</a></li>
+					<li><a href="#about">Sobre Mim</a></li>
+					<li><a href="#cookie">Cookie</a></li>
+					<li><a href="#brownie">Brownie</a></li>
+					<li><a href="#shrimp">Camarão Internacional</a></li>
+					<li><a href="#get-in-touch">Entre em Contato</a></li>
+				</ul>
+			</nav>
+		</aside>
 
-    <header>
-        <div class="container">
-            <div id="sidebar">
-                <div class="sidebar-container">
-                    <img class="img-title" src="assets/img/stand.png" alt="Logo Doceria">
-                    <h1>M.Receitas</h1>
-                    <nav>
-                        <ul>
-                            <li><a href="#sessao-bemvindo">Bem Vindo</a></li>
-                            <li><a href="#sessao-sobre">Sobre Mim</a></li>
-                            <li><a href="#sessao-cookie">Cookie</a></li>
-                            <li><a href="#sessao-brownie">Brownie</a></li>
-                            <li><a href="#sessao-camarao">Camarão Internacional</a></li>
-                            <li><a href="#sessao-contato">Entre em Contato</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
+		<div id="colorlib-main">
+			<aside id="colorlib-hero" class="js-fullheight">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+					<li style="background-image: url(assets/img/banner1.jpg);">
+						<div class="overlay"></div>
+						<div class="container-fluid">
+							<div class="row">
+								<div
+									class="col-md-6 col-md-offset-3 col-md-push-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+									<div class="slider-text-inner">
+										<div class="desc">
+											<h1>M. Receitas</h1>
+											<p><a class="btn btn-primary btn-learn" href="#cookie">Ver Receitas <i class="icon-arrow-down3"></i></a></p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</li>
+					</ul>
+				</div>
+			</aside>
 
-    <div class="content">
-        <main>
-            <section id="sessao-bemvindo">
-                <div class="banner"></div>
-                <div class="sessao-bemvindo-content">
-                    <h1 id="title-sessao-bemvindo">Seja bem vindo as Minhas Receitas</h1>
-                    <div class="sessao-minibanner"></div>
-                    <div class="sessao-descricao">
-                        <p>
-                            Olá, seja bem vindo ao meu site de estudos de HTML5 e CSS3, aqui fiz apenas uma página única simples que coloquei em prática o meu conhecimento dessas 2 ferramentas.
-                        </p>
-                        <p>
-                            Você encontrará aqui algumas das minhas receitas favoritas, tanto de doces e salgados, se quiser pode experimenta-las.
-                        </p>
-                        <p>
-                            Também deixei uma caixinha de envio se alguem quiser me enviar alguma receita seja de alguma que já tem aqui, como também de receitas que não está aqui para que eu possa experimentar.
-                        </p>
-                        <a href="#sessao-contato" class="sessao-bemvindo-btn">Me envie</a>
-                    </div>
-                </div>
-            </section>
+			<div class="colorlib-about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="about-img animate-box" data-animate-effect="fadeInLeft"
+								style="background-image: url(assets/img/banner2.jpg);">
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft" id="welcome">
+							<div class="about-desc">
+								<span class="heading-meta">Bem Vindo</span>
+								<h2 class="colorlib-heading">Seja bem vindo as Minhas Receitas</h2>
+								<p>Bem-vindo ao meu site dedicado aos estudos de HTML5 e CSS3. Aqui, desenvolvi uma
+									página única e simples para aplicar os conhecimentos adquiridos com essas duas
+									simples e poderosas ferramentas.</p>
+								<p>Explore algumas das minhas receitas favoritas, tanto doces quanto salgadas, e
+									sinta-se à vontade para experimentá-las.</p>
+								<p>Caso tenha alguma sugestão ou queira compartilhar uma receita própria, utilize a
+									caixa de envio disponível. Estou aberto a receber tanto receitas já presentes no
+									site quanto aquelas que ainda não foram incluídas, proporcionando uma troca
+									deliciosa de experiências culinárias.</p>
+								<p><a href="#get-in-touch" class="btn btn-primary btn-learn">Me envie!</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-            <section id="sessao-sobre">
-                <div class="sessao-content">
-                    <h1>Sobre mim</h1>
-                    <div class="sessao-minibanner"></div>
-                    <div class="sessao-descricao">
-                        <p>
-                            Me chamo Samuel Ximenes, tenho 20 anos, sou estudante de Engenharia da Computação no IFCE, atualmente enquanto faço esse site estou no 5º semestre.
-                        </p>
-                        <p>
-                            Sou um apaixonado por tecnologia desde pequeno, quando criança ja editava HTML achando que sabia algo de programação, mas quando fui tentar editar os arquivos de um jogo no qual era apaixonado na epoca e queria abrir um servidor pirata do jogo somente
-                            para brincar e me assustei com um projeto gigante em C++.
-                        </p>
-                        <p>
-                            Mesmo com o susto ainda passei meses, e contanto com as desistencias e voltas até anos, tentando brincar com aquilo durante a adolescencia, mas so fui ter um contato e atender o que era programação quando entrei na faculdade e estou desde então estudando
-                            e me aperfeiçoando.
-                        </p>
-                        <p>
-                            Mas agora vamos deixar de falar sobre mim e vamos para um dos meus hobbys favoritos que é cozinhar, e espero que experimente essas receitas e goste tanto quanto eu gosto!
-                        </p>
-                    </div>
-                </div>
-            </section>
+			<div class="colorlib-about" id="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="about-desc">
+								<span class="heading-meta">Sobre mim</span>
+								<h2 class="colorlib-heading">Breve resumo</h2>
+								<p>Meu nome é Samuel Ximenes, tenho 20 anos e sou estudante de Engenharia da Computação
+									no IFCE. Atualmente, estou no 5º semestre enquanto desenvolvo este site.</p>
+								<p>Desde a infância, sou apaixonado por tecnologia, inclusive experimentando editar HTML
+									quando criança, pensando que entendia algo de programação. No entanto, meu
+									verdadeiro encontro com a programação aconteceu quando me deparei com um projeto
+									gigante em C++, ao tentar modificar os arquivos de um jogo que eu adorava na época,
+									desejando criar um servidor pirata apenas para diversão.</p>
+								<p>Apesar do susto inicial, persisti por meses, enfrentando desistências e retornos ao
+									longo dos anos, enquanto explorava a programação durante a adolescência. Foi somente
+									ao ingressar na faculdade que tive um contato mais formal e dediquei-me a estudar e
+									aprimorar minhas habilidades nessa área.</p>
+								<p>Agora, deixemos um pouco de lado minha trajetória e entremos em um dos meus hobbies
+									favoritos: cozinhar. Espero que experimente essas receitas e aprecie tanto quanto eu
+									aprecio!</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="about-img animate-box" data-animate-effect="fadeInRight"
+								style="background-image: url(assets/img/about.jpg);">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-            <section id="sessao-cookie">
-                <h2>Cookie</h2>
-                <div class="cookie-img banner-galeria" id="img1"></div>
-                <div class="cookie-img banner-galeria" id="img2"></div>
-                <div class="cookie-img banner-galeria" id="img3"></div>
-                <div class="cookie-img banner-galeria" id="img4"></div>
-                <div class="cookie-img banner-galeria" id="img5"></div>
-                <div class="sessao-receita">
-                    <h3 class="gg-calendar-two">Receita:</h3>
-                    <ul>
-                        <li><a>Pre-aquecer forno a 180º</a></li>
-                        <li><a>1 Xicara e 1/2 de açúcar mascavo</a></li>
-                        <li><a>1/2 Xicara de nescau</a></li>
-                        <li><a>1/2 Xicara de cacau em pó (50%)</a></li>
-                        <li><a>Misturar tudo</a></li>
-                        <li><a>Após isso colocar 1 ovo</a></li>
-                        <li><a>5 colheres de manteiga</a></li>
-                        <li><a>1/4 de uma caixa de creme de leite</a></li>
-                        <li><a>Após isso misturar tudo novamente</a></li>
-                        <li><a>Acrescentar farinha com fermento até a massa soltar dos dedos</a></li>
-                        <li><a>Untar forma e enfarinhar</a></li>
-                        <li><a>Fazer bolinhas com a massa e pode rechear com o que desejar</a></li>
-                        <li><a>Colocar no forno por 15 minutos, após isso desligue, abra um pouco o forno e deixe por mais 5 minutos</a></li>
-                    </ul>
-                </div>
+			<div class="colorlib-work">
+				<div class="colorlib-narrow-content" id="cookie">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Receitas</span>
+							<h2 class="colorlib-heading animate-box">Cookie</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(assets/img/rcp-cookie.jpg);">
+							</div>
+							<ol>
+								<li><strong>Pré-aqueça o forno a 180ºC.</strong></li>
+								<li>Em uma tigela grande, misture:</li>
+								<ul>
+									<li>1 xícara e 1/2 de açúcar mascavo</li>
+									<li>1/2 xícara de Nescau</li>
+									<li>1/2 xícara de cacau em pó (50%)</li>
+								</ul>						
+								<li>Após a mistura dos ingredientes secos, adicione:</li>
+								<ul>
+									<li>1 ovo</li>
+									<li>5 colheres de sopa de manteiga</li>
+									<li>1/4 de uma caixa de creme de leite</li>
+								</ul>						
+								<li>Misture bem todos os ingredientes até obter uma massa homogênea.</li>
+								<li>Acrescente farinha com fermento gradualmente até que a massa solte dos dedos.</li>
+								<li>Unte uma forma e enfarinhe.</li>
+								<li>Faça bolinhas com a massa e, se desejar, recheie com o que preferir.</li>
+								<li>Coloque as bolinhas na forma preparada.</li>
+								<li>Asse no forno preaquecido por 15 minutos.</li>
+								<li><strong>Após esse tempo, desligue o forno, abra um pouco a porta e deixe as bolinhas no forno por mais 5 minutos.</strong></li>
+								<li>Retire do forno e deixe esfriar antes de servir.</li>
+							</ol>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft"
+							id="brownie">
+							<h2 class="colorlib-heading animate-box">Brownie</h2>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(assets/img/rcp-brownie.jpg);">
+							</div>
+							<ol>
+								<li><strong>Pré-aquecer o forno a 180ºC.</strong></li>
+								<li>Em uma tigela grande, misturar bem os seguintes ingredientes:
+									<ul>
+										<li>1 xícara de açúcar</li>
+										<li>1/2 xícara de manteiga derretida</li>
+										<li>3 ovos</li>
+										<li>2 xícaras de Nescau</li>
+										<li>1 xícara de farinha sem fermento</li>
+									</ul>
+								</li>
+								<li>Untar uma forma e enfarinhar com Nescau.</li>
+								<li>Despejar a mistura na forma preparada.</li>
+								<li>Colocar no forno pré-aquecido por aproximadamente 40 minutos, ou até que um palito inserido no centro saia limpo.</li>
+								<li><strong>Retirar</strong> do forno e deixar esfriar antes de cortar.</li>
+							</ol>							
+						</div>
+					</div>
 
-            </section>
-            <section id="sessao-brownie">
-                <h2>Brownie</h2>
-                <div class="brownie-img banner-galeria" id="img6"></div>
-                <div class="brownie-img banner-galeria" id="img7"></div>
-                <div class="brownie-img banner-galeria" id="img8"></div>
-                <div class="sessao-receita">
-                    <h3 class="gg-calendar-two">Receita:</h3>
-                    <ul>
-                        <li><a>Pre-aquecer forno a 180º</a></li>
-                        <li><a>1 Xicara de açúcar</a></li>
-                        <li><a>1/2 Xicara de manteiga derretida</a></li>
-                        <li><a>3 Ovos</a></li>
-                        <li><a>2 Xicaras de nescau</a></li>
-                        <li><a>1 Xicara de farinha sem fermento</a></li>
-                        <li><a>Untar forma e enfarinhar com nescau</a></li>
-                        <li><a>Colocar no forno por 40 minutos</a></li>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft"
+							id="shrimp">
+							<h2 class="colorlib-heading animate-box">Camarão Internacional</h2>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(assets/img/rcp-shrimp.jpg);">
+							</div>
+							<ol>
+								<li><strong>Preparação do Arroz:</strong>
+									<ul>
+										<li>Fazer 4 xícaras de arroz.</li>
+									</ul>
+								</li>
+								<li><strong>Preparação do Camarão:</strong>
+									<ul>
+										<li>Limpar o camarão e deixar marinando com limão e pimenta por 15 minutos.</li>
+									</ul>
+								</li>
+								<li><strong>Refogar o Camarão:</strong>
+									<ul>
+										<li>Em uma panela, derreter a manteiga.</li>
+										<li>Adicionar o camarão e refogar. Cuidado para não passar do ponto, o camarão cozinha rapidamente, ficando pronto quando começar a ficar rosado e rapidamente.</li>
+									</ul>
+								</li>
+								<li><strong>Preparo do Molho:</strong>
+									<ul>
+										<li>Adicionar ervilhas, creme de leite, requeijão, presunto e queijo.</li>
+										<li>Misturar bem e, em seguida, adicionar o arroz.</li>
+									</ul>
+								</li>
+								<li><strong>Montagem e Cozimento:</strong>
+									<ul>
+										<li>Colocar a mistura em um refratário.</li>
+										<li>Cobrir com mussarela fatiada.</li>
+										<li>Levar ao forno por aproximadamente 15 minutos.</li>
+									</ul>
+								</li>
+								<li><strong>Finalização e Servir:</strong>
+									<ul>
+										<li>Ao retirar do forno, colocar batata palha por cima.</li>
+										<li>Está pronto para servir.</li>
+									</ul>
+								</li>
+							</ol>							
+						</div>
+					</div>
+				</div>
 
-                    </ul>
-                </div>
-            </section>
-            <section id="sessao-camarao">
-                <h2>Camarão Internacional</h2>
-                <div class="camarao-img banner-galeria" id="img9"></div>
-                <div class="camarao-img banner-galeria" id="img10"></div>
-                <div class="camarao-img banner-galeria" id="img11"></div>
-                <div class="camarao-img banner-galeria" id="img12"></div>
-                <div class="sessao-receita">
-                    <h3 class="gg-calendar-two">Receita:</h3>
-                    <ul>
-                        <li><a>Fazer 4 xicaras de arroz</a></li>
-                        <li><a>Limpar camarão e deixar marinando com limão e pimenta por 15 minutos</a></li>
-                        <li><a>Em uma panela, derreta a manteiga e em seguida coloque o camarão.</a></li>
-                        <li><a>Refogue (mas atenção, pois camarão cozinha muito rápido e se passar muito fica borrachudo; o ponto é quando começa a ficar rosado e bem rápido).</a></li>
-                        <li><a>Adicione ervilha, creme de leite, requeijão, presunto e queijo depois de tudo misturado, acrescente o arroz.</a></li>
-                        <li><a>Já pronto, coloque em um refratário, cubra com a mussarela fatiada e leve ao forno por uns 15 minutos.</a></li>
-                        <li><a>Untar forma e enfarinhar com nescau</a></li>
-                        <li><a>Ao retirar, coloque a batata palha em cima e está pronto para servir.</a></li>
-                    </ul>
-                </div>
-            </section>
-            <section id="sessao-contato">
-                <h2>Entre em contato</h2>
-                <form id="form-contato">
-                    <input type="text" name="name" placeholder="Nome">
-                    <input type="text" name="email" placeholder="Email">
-                    <textarea name="message" placeholder="Escreva sua mensagem"></textarea>
-                    <input type="submit" value="Enviar">
-                </form>
-            </section>
-            <footer>
-                <p>SXO @2021</p>
-            </footer>
-        </main>
-    </div>
+				<div id="get-in-touch" class="colorlib-bg-color">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+								<span class="heading-meta">Contato</span>
+								<h2 class="colorlib-heading">Entre em contato</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5">
+								<div class="colorlib-feature colorlib-feature-sm animate-box"
+									data-animate-effect="fadeInLeft">
+									<div class="colorlib-icon">
+										<i class="icon-globe-outline"></i>
+									</div>
+									<div class="colorlib-text">
+										<p><a href="#">samuelximenes27@gmail.com</a></p>
+									</div>
+								</div>
+
+								<div class="colorlib-feature colorlib-feature-sm animate-box"
+									data-animate-effect="fadeInLeft">
+									<div class="colorlib-icon">
+										<i class="icon-phone"></i>
+									</div>
+									<div class="colorlib-text">
+										<p><a href="tel://">+351 920 352 788</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-7 col-md-push-1">
+								<div class="row">
+									<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box"
+										data-animate-effect="fadeInLeft">
+										<form action="">
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Nome">
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Email">
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Titulo">
+											</div>
+											<div class="form-group">
+												<textarea name="" id="message" cols="30" rows="7" class="form-control"
+													placeholder="Escreva sua mensagem"></textarea>
+											</div>
+											<div class="form-group">
+												<input type="submit" class="btn btn-primary btn-send-message"
+													value="Enviar">
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.easing.1.3.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.waypoints.min.js"></script>
+		<script src="assets/js/jquery.flexslider-min.js"></script>
+		<script src="assets/js/sticky-kit.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/jquery.countTo.js"></script>
+
+
+		<script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
